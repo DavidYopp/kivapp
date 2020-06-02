@@ -1,0 +1,19 @@
+<LoginScreen>:
+    GridLayout:
+        GridLayout:
+            Label:
+                text: "User Login"
+            TextInput:
+                hint_text: "Username"
+            Button:
+                text: "Login"
+        GridLayout:
+            cols: 2
+            Button:
+                text: "Forget Password?"
+            Button:
+                text: "Sign Up"
+
+<RootWidget>:
+    LoginScreen:
+        name: "login_screen"
